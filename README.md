@@ -1,5 +1,5 @@
 # awesomeavatar
-Basic Aweseome Avatar 
+Basic Awesome Avatar 
 
 DEMO 1                |  DEMO 2             | DEMO 3
 :-------------------------:|:-------------------------:|:-------------------------:
