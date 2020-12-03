@@ -3,7 +3,7 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-class Awesomeavatar {
+class AwesomeAvatar {
   static const MethodChannel _channel =
       const MethodChannel('awesomeavatar');
 
@@ -16,7 +16,7 @@ class Awesomeavatar {
   String assetsImage;
   double outRadius;
   Color backgroundColor;
-  Awesomeavatar({
+  AwesomeAvatar({
     this.radius,
     this.networkImage,
     this.assetsImage,
@@ -34,7 +34,6 @@ class Awesomeavatar {
     return CircleAvatar(
       backgroundColor: backgroundColor,
       radius: radius + outRadius,
-
       child: CircleAvatar(
         radius: radius,
         child: ClipRRect(

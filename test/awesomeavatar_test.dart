@@ -18,6 +18,6 @@ void main() {
   });
 
   test('getPlatformVersion', () async {
-    expect(await Awesomeavatar.platformVersion, '42');
+    expect(await AwesomeAvatar.platformVersion, '42');
   });
 }
