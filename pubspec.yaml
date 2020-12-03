@@ -1,8 +1,8 @@
 name: awesomeavatar
-description: A Nice Pack for Cool Avatars
+description: A Nice Pack for Cool Avatars (Demo Plugin)
 version: 0.0.1
 author:  Ahmet Erdoğan
-homepage:
+homepage: https://github.com/ahmeterdgn/awesomeavatar
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
