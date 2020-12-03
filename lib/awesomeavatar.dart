@@ -3,7 +3,7 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-class AwesomeAvatar {
+class AwesomeAvatar extends StatelessWidget{
   static const MethodChannel _channel =
       const MethodChannel('awesomeavatar');
 
