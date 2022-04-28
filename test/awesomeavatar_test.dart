@@ -1,6 +1,7 @@
+// ignore_for_file: prefer_typing_uninitialized_variables, non_constant_identifier_names
+
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:awesomeavatar/awesomeavatar.dart';
 
 void main() {
   const MethodChannel channel = MethodChannel('awesomeavatar');
@@ -22,4 +23,3 @@ void main() {
     expect(await Awesomeavatar.platformVersion, '42');
   });
 }
-
